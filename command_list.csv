@@ -1,0 +1,44 @@
+    1  	git config --global user.name "Daria Kutko"
+    2  git config --global user.email "darya_kutko@ukr.net"
+    3  git clone https://github.com/daryakutko-sky/HW_10.git
+    4  cd HW_10
+    5  touch text_ignore.txt
+    6  nano .gitignore
+    7  cat .gitignore
+    8  git status
+    9  nano .gitignore
+   10  cat .gitignore
+   11  git status
+   12  nano .gitignore
+   13  cat .gitignore
+   14  git status
+   15  nano .gitignore
+   16  cat .gitignore
+   17  git status
+   18  git add .
+   19  git commit -m "Update .gitignore"
+   20  git push
+   21  git status
+   22  touch main_test.txt
+   23  git status
+   24  git add .
+   25  git commit -m "Add main_test.txt"
+   26  git push
+   27  git status
+   28  git branch develop
+   29  git checkout develop
+   30  touch develope_test.txt
+   31  git add .
+   32  git commit -m "Add develope_test.txt"
+   33  nano develope_test.txt
+   34  git status
+   35  git add .
+   36  git commit -m "Add text to develope_test.txt"
+   37  git push
+   38  git status
+   39  git checkout main
+   40  git merge develope
+   41  git merge develop
+   42  git push
+   43  git log 
+   44  history > command_list.csv
